@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-$@ufmo!hq_+1s2d@gcxjg!9c5x8q20v-b6pbirred=pcbz3u&k
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS=['https://swapnosiri.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS=['https://sbb-2mjp.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
@@ -48,7 +48,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'BloodBank.urls'
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = [' http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://sbb-2mjp.onrender.com']
 CORS_ALLOW_ALL_ORIGINS: True
 
 TEMPLATES = [
