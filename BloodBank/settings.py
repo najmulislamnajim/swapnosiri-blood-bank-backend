@@ -50,7 +50,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'BloodBank.urls'
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = ['https://sbb-2mjp.onrender.com','https://*.127.0.0.1' ]
+CSRF_TRUSTED_ORIGINS = ['https://bloodbankserver-s2p9.onrender.com','https://*.127.0.0.1' ]
 CORS_ALLOW_ALL_ORIGINS: True
 ALLOWED_HOSTS = ["*"]
 
