@@ -29,9 +29,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'news',
-    'donor',
     'rest_framework',
     'contact',
+    'user',
+    'django_filters',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -48,8 +50,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'BloodBank.urls'
 CORS_ORIGIN_ALLOW_ALL = True
-CSRF_TRUSTED_ORIGINS = ['https://sbb-2mjp.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://sbb-2mjp.onrender.com','https://*.127.0.0.1' ]
 CORS_ALLOW_ALL_ORIGINS: True
+ALLOWED_HOSTS = ["*"]
 
 TEMPLATES = [
     {
